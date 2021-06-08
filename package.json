@@ -1,6 +1,6 @@
 {
 	"name": "@growthops/ext-datocms",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "DatoCMS library for the GO Digital modern stack",
 	"main": "./lib/index.js",
 	"license": "MIT",
