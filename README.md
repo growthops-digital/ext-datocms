@@ -1,5 +1,7 @@
 # GrowthOps Ext DatoCMS
 
+[![codecov](https://codecov.io/gh/growthops-digital/ext-datocms/branch/main/graph/badge.svg?token=WS0PJ3QQRW)](https://codecov.io/gh/growthops-digital/ext-datocms)
+
 A collection of useful extensions built for [DatoCMS](https://www.datocms.com/).
 
 ## Functions
