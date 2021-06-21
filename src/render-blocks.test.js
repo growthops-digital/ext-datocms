@@ -4,14 +4,14 @@ test('renders simple blocks as expected', () => {
 	const blocks = [
 		{
 			_modelApiKey: 'foo',
-			content: 'bar'
-		}
+			content: 'bar',
+		},
 	];
 
 	const renderFooBlock = jest.fn(data => data.content);
 
 	const result = renderBlocks({
-		foo: renderFooBlock
+		foo: renderFooBlock,
 	}, blocks);
 
 	expect(renderFooBlock).toHaveBeenCalled();
@@ -22,14 +22,14 @@ test('renders simple blocks as expected — curried', () => {
 	const blocks = [
 		{
 			_modelApiKey: 'foo',
-			content: 'bar'
-		}
+			content: 'bar',
+		},
 	];
 
 	const renderFooBlock = jest.fn(data => data.content);
 
 	const render = renderBlocks({
-		foo: renderFooBlock
+		foo: renderFooBlock,
 	});
 
 	const result = render(blocks);
